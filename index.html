@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Todo list</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1> Todo List</h1>
+        <input id="newTask" type="text">
+        <button onclick=createTask()>Incluir</button>
+
+        <div id="list">
+
+        </div>
+
+        <form>
+
+                <h2 class="nome">Suas Listas já criadas </h2>
+                <div class="check">
+                <input type="checkbox" id="codminer" name="listas" value="codminer">
+                <label for="codminer">Criar Todo Codeminer42</label>
+                    <div>
+                        <input type="checkbox" id="aprender" name="listas" value="aprender">
+                        <label for="aprender">Aprender JS</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="chorar" name="listas" value="chorar">
+                        <label for="chorar">Chorar porque JS é difícil</label>
+                     </div>
+                            <div>
+                         <input type="checkbox" id="feliz" name="listas" value="feliz">
+                         <label for="feliz">Ficar Feliz por conseguir entregar o 1º projeto!!</label>
+                     </div>
+
+        </form>
+
+    </div>
+  
+</body>
+
+<script src="./task.js"></script>
+<script src="./app.js"></script>
+
+</html>
+
+
